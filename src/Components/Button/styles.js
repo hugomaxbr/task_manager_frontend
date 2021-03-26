@@ -5,13 +5,13 @@ export const Button = styled.button`
     
   width : 100%;
   height: 50px;
-  background: ${color.orangeMain};
+  background: ${color.pastelYellow};
   font-family : Roboto;
   font-size: 20px;
   font-weight: 700;
   line-height : 23px;
   align-self: center;
-  color: #FFF;
+  color: ${color.greyWhite};
 
 
 `;

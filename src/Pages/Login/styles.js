@@ -5,7 +5,7 @@ import color from '../../Styles/Colors';
 
 export const Container = styled.div`
  
-  background: ${color.backgroundBlack};
+  background: ${color.smokedBlack};
   display: flex;
   align-items:center;
   justify-content: center;
@@ -17,6 +17,7 @@ export const Container = styled.div`
   >form{
     width: 430px;
     height: 420px;
+    background: ${color.smokedBlack}
   }
 
 

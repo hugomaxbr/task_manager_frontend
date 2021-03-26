@@ -8,7 +8,7 @@ import Header from '../../Components/Header/index';
 function Login() {
   return (
     <>
-      <Header children="Login">
+      <Header>
       </Header>
       <Container>
         <Form action="/login">

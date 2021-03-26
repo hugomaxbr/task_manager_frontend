@@ -1,14 +1,22 @@
 import React, { memo } from 'react';
 import { Link } from 'react-router-dom';
 
-import { Container, ChildrenContainer, PowerIcon } from './styles';
+import { Container, ChildrenContainer, AnchorIcon } from './styles';
+
 
 function Header({ children}) {
   return (
     <Container>
-      <strong>
-      {children}
-      </strong>
+      <div>
+        <AnchorIcon/>
+        <strong>Task Manager</strong>
+      </div>
+      <ChildrenContainer>
+        {/* <Link to="/">
+          <AnchorIcon/>
+        </Link> */}
+        {children}
+      </ChildrenContainer>
     </Container>
   );
 }
