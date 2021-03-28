@@ -18,6 +18,7 @@ export const Container = styled.header`
   border-bottom: 2px solid ${Colors.vibrantYellow};
   padding: 0 30px;
   position : absolute;
+  border-bottom-right-radius: 15px;
   div {
     display: flex;
     align-items: center;
