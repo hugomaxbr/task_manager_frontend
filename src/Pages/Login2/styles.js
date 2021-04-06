@@ -11,8 +11,16 @@ export const Envelocro = styled.div`
     max-width: 1500px;
     height: 100%;
     position: relative;
+    margin: 0 auto;
 `;
 
+export const Croquete = styled.div`
+    height:100vh;
+    position: relative;
+    width: 100%;
+    background-color: black;
+
+`;
 
 export const Container = styled.div`
     background-color: black;

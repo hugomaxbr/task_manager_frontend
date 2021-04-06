@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { Container,Screen, Titulo, Envelocro, InsideScreen, InnerBox} from './styles';
+import { Container,Screen, Titulo, Envelocro, InsideScreen, InnerBox, Croquete} from './styles';
 
 function Login2() {
     return (
       <>
+      <Croquete>
         <Container>
           <Envelocro>
           <Titulo>
@@ -12,12 +13,32 @@ function Login2() {
         </Titulo>
         <Screen>
           <InsideScreen>
-            <InnerBox></InnerBox>
+            <InnerBox>
+              <form action="/login">
+                <field>
+                  <input
+                    type="Email"
+                    placeholder=" "
+                  />
+                  <label for="email" class="label">Email</label>
+                </field>
+                <field>
+                  <input
+                    type="Password"
+                    placeholder=" "
+                  />
+                  <label for="password" class="label">Senha</label>
+                </field>
+
+                <button type="submit">Entrar</button>
+              </form>
+              </InnerBox>
           </InsideScreen>
         </Screen>
           </Envelocro>
         
         </Container>
+        </Croquete>
       </>
     );
   }
