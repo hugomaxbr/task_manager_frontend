@@ -116,10 +116,37 @@ export const InsideScreen = styled.div`
 export const InnerBox = styled.div`
 
     display: inline-block;
-    width: calc(100% - 70px);
-    max-width: 1010px;
+    width: 100%;
+    height: 100%;
     text-transform: uppercase;
     text-align: center;
+    position: relative;
+
+    form {
+       margin: 0 auto;
+       top: 50%;
+       left:50%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+       position: absolute;
+       align-content: center;
+       label{
+           display: block;
+           color: white;
+           text-align: left;
+       }
+       field {
+           padding: 0;
+           display: block;
+           margin: 0;
+       }
+       button {
+           display: block;
+           margin:  10px auto;
+
+       }
+       
+    }
 
     &::before{
         content: "";

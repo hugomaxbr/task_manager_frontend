@@ -16,18 +16,18 @@ function Login2() {
             <InnerBox>
               <form action="/login">
                 <field>
+                  <label for="email" class="label">Email</label>
                   <input
                     type="Email"
                     placeholder=" "
                   />
-                  <label for="email" class="label">Email</label>
                 </field>
                 <field>
+                  <label for="password" class="label">Senha</label>
                   <input
                     type="Password"
                     placeholder=" "
                   />
-                  <label for="password" class="label">Senha</label>
                 </field>
 
                 <button type="submit">Entrar</button>
